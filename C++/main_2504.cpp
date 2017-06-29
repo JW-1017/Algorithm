@@ -58,7 +58,7 @@ long long pow(int a, int b) {
 
 int main(void)
 {
-	int i, len, sur1 = 0, sur2 = 0, flag = 0;
+	int i, len, sur1 = 0, sur2 = 0, flag = 0;		// sur1 '(' 개수, sur2 '[' 개수
 	long long result = 0;
 	char temp;
 	string str;
@@ -66,7 +66,7 @@ int main(void)
 	cin >> str;
 	len = str.length();
 
-	stack<char>* stk = new stack<char>();
+	stack<char>* stk = new stack<char>();			// 닫을 때 계산
 
 	for (i = 0; i < len; i++) {
 		temp = str[i];
@@ -84,7 +84,7 @@ int main(void)
 		else if (temp == ')') {
 			if (stk->pop() == '(') {
 				sur1--;
-				if (flag) {
+				if (flag) {							// 처음 닫힐 때만 계산 뒤에는 계산 안해줌(중첩된 거 다 곱해줌)
 					result += pow(2, sur1) * pow(3, sur2) * 2;
 				}
 				flag = 0;
@@ -110,7 +110,7 @@ int main(void)
 			}
 		}
 	}
-	if (!stk->empty()) {
+	if (!stk->empty()) {					// 괄호 남아있을때 예외
 		cout << 0 << endl;
 		delete stk;
 		return 0;
