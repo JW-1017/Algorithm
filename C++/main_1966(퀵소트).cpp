@@ -54,12 +54,12 @@ int main() {
 			cin >> arr[j];
 
 			if (j == count) {
-				que.push(new printer(arr[j], true));
+				que.push(new printer(arr[j], true));			// 해당 번쨰 숫자만 true로 저장
 				continue;
 			}
 			que.push(new printer(arr[j]));
 		}
-		quickSort(arr, 0, len - 1);
+		quickSort(arr, 0, len - 1);								// 배열을 오름차순으로 정렬
 
 		for (j = 0; j < len; j++) {
 			while (1) {

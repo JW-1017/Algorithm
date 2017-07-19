@@ -25,7 +25,7 @@ int main(void)
 	cin >> num;
 
 	int* arr = new int[num];
-	// c++ 이차원 배열 동적할당
+	// c++ 이차원 배열 동적할당   2행 num열
 	int** max = new int*[2];			
 
 	for (i = 0; i < 2; i++) {
