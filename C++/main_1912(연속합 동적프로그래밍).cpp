@@ -25,7 +25,9 @@ output
 28
 
 https://www.acmicpc.net/problem/1912
-*/
+
+/* Copyright (C) 2017 by Son */
+
 using namespace std;
 
 int main() {

@@ -10,7 +10,8 @@ output
 <3, 6, 2, 7, 5, 1, 4>
 
 https://www.acmicpc.net/problem/11866
-*/
+
+/* Copyright (C) 2017 by Son */
 
 using namespace std;
 

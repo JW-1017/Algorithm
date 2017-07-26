@@ -1,7 +1,8 @@
 #include <iostream>
 #include <sstream>
 #include <string>
-//#include <stack>
+
+/* Copyright (C) 2017 by Son */
 
 using namespace std;
 

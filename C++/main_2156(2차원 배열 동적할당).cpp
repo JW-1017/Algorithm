@@ -12,7 +12,8 @@ input
 output
 33
 https://www.acmicpc.net/problem/2156
-*/
+
+/* Copyright (C) 2017 by Son */
 
 using namespace std;
 

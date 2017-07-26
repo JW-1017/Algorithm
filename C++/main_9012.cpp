@@ -20,7 +20,8 @@ YES
 NO
 
 https://www.acmicpc.net/problem/9012
-*/
+
+/* Copyright (C) 2017 by Son */
 
 using namespace std;
 

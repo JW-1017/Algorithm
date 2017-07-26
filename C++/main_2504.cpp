@@ -8,7 +8,8 @@ output
 28
 
 https://www.acmicpc.net/problem/2504
-*/
+
+/* Copyright (C) 2017 by Son */
 
 using namespace std;
 

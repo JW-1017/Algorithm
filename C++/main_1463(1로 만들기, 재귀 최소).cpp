@@ -12,7 +12,8 @@ output
 3
 
 https://www.acmicpc.net/problem/1463
-*/
+
+/* Copyright (C) 2017 by Son */
 
 using namespace std;
 

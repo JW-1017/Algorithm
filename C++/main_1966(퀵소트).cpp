@@ -16,7 +16,9 @@ output
 5
 
 https://www.acmicpc.net/problem/1966
-*/
+
+/* Copyright (C) 2017 by Son */
+
 using namespace std;
 
 class printer {

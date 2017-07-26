@@ -33,7 +33,8 @@ output
 -
 
 https://www.acmicpc.net/problem/1874
-*/
+
+/* Copyright (C) 2017 by Son */
 
 using namespace std;
 
