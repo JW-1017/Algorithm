@@ -52,8 +52,8 @@ int main() {
 		scanf("%d%d%d", &red, &green, &blue);
 		town.push_back(house(red, green, blue));
 	}
+	v_size = num;
 	for (i = 0; i < 3; i++) {
-		v_size = num;
 		result = min(result, reculsive_solve(i, 0));
 	}
 	printf("%d\n", result);
