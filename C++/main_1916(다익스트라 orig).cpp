@@ -80,9 +80,7 @@ public:
 	void dijkstra(int s) {
 		dist[s - 1] = 0;
 		setStart(s);
-		for (int i = 0; i < n; i++) {
-			pq.push(vt[i]);
-		}
+		pq.push(vt[s]);
 		m.insert(make_pair(s, make_pair(0, -1)));
 		while (!pq.empty()) {
 			int index = pq.top().index - 1;
