@@ -144,6 +144,5 @@ int main()
 	for (i = 0; i < n; i++) {
 		gp.printIndexMinDis(i);
 	}
-
 	return 0;
 }
