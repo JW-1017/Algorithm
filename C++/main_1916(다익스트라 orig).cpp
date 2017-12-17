@@ -131,16 +131,16 @@ int main()
 	cin >> n >> m;
 	Graph gp;
 	for (i = 1; i <= n; i++) {
-		gp.addVertex(i);
+		gp.addVertex(i);		// 인덱스 그대로
 	}
-	gp.setAdj();
+	gp.setAdj();				// 필수
 	for (i = 0; i < m; i++) {
 		cin >> u >> v >> w;
-		gp.addAdj(u, v, w);
+		gp.addAdj(u, v, w);		// 인덱스 그대로
 	}
 	cin >> s >> e;
-	gp.dijkstra(s - 1);
-	gp.printIndexMinDis(e - 1);
+	gp.dijkstra(s - 1);			// 배열을 위해 -1
+	gp.printIndexMinDis(e - 1); // 동일 -1
 	//gp.printMinRoute(e);
 	return 0;
 }
