@@ -1,5 +1,3 @@
-package base;
-
 import java.util.Scanner;
 
 public class Main_Quick  {	
