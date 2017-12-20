@@ -17,7 +17,7 @@ output
 1 0 0 1 1 0 0 1
 
 https://www.acmicpc.net/problem/10815
-*/
+/* Copyright (C) 2017 by Son */
 
 public class Main {
 	public static void main(String[] args) throws IOException {

@@ -9,7 +9,7 @@ output
 75.00
  
 https://www.acmicpc.net/problem/1546
-*/
+/* Copyright (C) 2017 by Son */
 
 public class Main {
 	public static void main(String[] args) {

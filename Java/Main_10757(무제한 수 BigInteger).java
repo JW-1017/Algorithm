@@ -2,14 +2,14 @@ import java.util.Scanner;
 import java.math.BigInteger;
 
 /*
- input
+input
 9223372036854775807 9223372036854775808
  
- output
- 18446744073709551615
+output
+18446744073709551615
  
- https://www.acmicpc.net/problem/10757
- */
+https://www.acmicpc.net/problem/10757
+/* Copyright (C) 2017 by Son */
 
 public class Main {
 	

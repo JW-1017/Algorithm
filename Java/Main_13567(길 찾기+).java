@@ -22,7 +22,7 @@ output
 7 10
  
 https://www.acmicpc.net/problem/13567
-*/
+/* Copyright (C) 2017 by Son */
 
 public class Main {
 	public static void main(String[] args) {

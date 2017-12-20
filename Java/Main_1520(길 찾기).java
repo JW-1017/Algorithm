@@ -13,7 +13,7 @@ output
 3
  
 https://www.acmicpc.net/problem/1520
-*/
+/* Copyright (C) 2017 by Son */
 
 public class Main {
 	static int M, N;

@@ -28,7 +28,7 @@ output
 5
  
 https://www.acmicpc.net/problem/14953
-*/
+/* Copyright (C) 2017 by Son */
 
 public class Main {
 

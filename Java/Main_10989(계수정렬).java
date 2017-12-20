@@ -29,7 +29,7 @@ output
 5
 7
 https://www.acmicpc.net/problem/10989
-*/
+/* Copyright (C) 2017 by Son */
 public class Main_10989 {	
 
 	public static void main(String[] args) throws IOException {

@@ -11,7 +11,7 @@ import java.util.Scanner;
  17
  
  https://www.acmicpc.net/problem/10844
- */
+/* Copyright (C) 2017 by Son */
 
 public class Main {
 	static long arr[][];

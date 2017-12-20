@@ -12,7 +12,7 @@ input
 output
 30
 https://www.acmicpc.net/problem/1932
-*/
+/* Copyright (C) 2017 by Son */
 
 public class Main_1932 {
 

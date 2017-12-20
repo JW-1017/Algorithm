@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+/* Copyright (C) 2017 by Son */
 public class Main_Quick  {	
 
 	public static void main(String[] args) {

@@ -18,7 +18,7 @@ output
 90
 
 https://www.acmicpc.net/problem/5347
-*/
+/* Copyright (C) 2017 by Son */
 public class Main {
 	public static void main(String[] args) throws IOException {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));

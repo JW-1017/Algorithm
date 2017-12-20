@@ -7,7 +7,7 @@ input
 output
 3
 https://www.acmicpc.net/problem/2965
-*/
+/* Copyright (C) 2017 by Son */
 
 public class Main_2965 {
 
