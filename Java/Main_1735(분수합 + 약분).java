@@ -44,7 +44,7 @@ public class Main {
 		ja1 = ja3;			// 다시 결과전용으로
 		mo1 = mo3;
 		
-		while(ja3 != 0){
+		while(ja3 != 0){		// 최대공약수 (mo3)
 			int value = mo3 % ja3;
 			mo3 = ja3;
 			ja3 = value;
