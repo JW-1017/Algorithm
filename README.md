@@ -1,4 +1,5 @@
 # Algorithm
-BaekJoon Online Judge Problem Solving (by C++, Java)
+BaekJoon Online Judge, Codeforces Problem Solving (by C++, Java)
 
-ID : wldndsla8
+BOJ ID : wldndsla8
+Codeforces Handle : J_W
