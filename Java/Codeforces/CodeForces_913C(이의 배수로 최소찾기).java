@@ -57,7 +57,7 @@ public class Main {
 		final int ma = Integer.MAX_VALUE;
 		int val = 1;
 		int temp = scan.nextInt();
-		dp[0] = 0;			// ÃÊ±âÈ­
+		dp[0] = 0;			//  ì´ˆê¸°í™”ê°’
 		cost[1] = temp;
 		dp[1] = temp;
 		tm.put(1, 1);
@@ -80,7 +80,7 @@ public class Main {
 				dp[i-1] = dp[i];
 			}
 		}
-		while(L > 0){		// key °¡  °ÅµìÁ¦°ö °ª, value °¡ index
+		while(L > 0){		// key pow value, value == index
 			int val1 = tm.floorKey((int)L);
 			int val2 = tm.ceilingKey((int)L);
 			
