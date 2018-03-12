@@ -21,6 +21,7 @@ using namespace std;
 int main() {
 	int i, num, size = 0;
 	int value;
+	
 	vector<int> dp;
 	vector<int>::iterator loc;
 	scanf("%d", &num);
