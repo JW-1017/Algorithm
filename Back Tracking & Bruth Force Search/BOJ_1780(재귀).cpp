@@ -108,7 +108,7 @@ int main() {
 		}
 	}
 	if (flag != -10) {
-		arr[flag + 1] = n*n;
+		arr[flag + 1] = 1;
 		for (i = 0; i < 3; i++) {
 			cout << arr[i] << "\n";
 		}
